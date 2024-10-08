@@ -1,0 +1,432 @@
+body {
+  margin-top: 0%;
+}
+.first_blok {
+  background-color: #61846d;
+  height: 77px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+.helpBlokForLogo {
+  background-color: #61846d;
+  height: 77px;
+  width: 17%;
+  display: flex; /* Для центрирования текста */
+  align-items: center; /* Центрирование по вертикали */
+}
+
+.logo {
+  background-color: #ffffff;
+  border-radius: 3px;
+  display: 10px;
+  padding: 4%;
+  position: relative;
+}
+#logo1 {
+  display: flex;
+  color: rgba(50, 82, 61, 1);
+  font-size: 29.26px; /* Размер шрифта */
+  font-weight: bold;
+  letter-spacing: -0.04em;
+}
+
+#helpBlokForLogo_2 {
+  position: relative;
+}
+#logo2 {
+  color: #ffffff;
+  font-size: 24.38px; /* Размер шрифта */
+  font-weight: bold;
+  padding: 4px;
+}
+
+#helpBlok {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+}
+
+#logo3_0 {
+  transition: color 0s;
+  color: rgba(203, 203, 203, 1);
+}
+#logo3_0:hover {
+  color: #ffffff !important;
+}
+
+#logo3_1 {
+  transition: color 0s;
+  color: rgba(203, 203, 203, 1);
+}
+#logo3_1:hover {
+  color: #ffffff !important;
+  text-shadow: -2px -2px 0 #000, /* Увеличиваем обводку */ 2px -2px 0 #000,
+    -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.logo3_1:hover {
+  opacity: 1;
+  border: 1px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #ffffff !important;
+}
+#logo3_2 {
+  transition: color 0s;
+  color: rgba(203, 203, 203, 1);
+}
+#logo3_2:hover {
+  color: #ffffff !important;
+}
+.text-block {
+  width: 600px; /* эксперементальный вариант */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  font-weight: bold; /* Жирный шрифт */
+  font-size: 24.38px; /* Размер шрифта */
+  justify-content: space-between;
+}
+.text-block {
+  opacity: 1;
+  color: white !important;
+}
+#Vector {
+  padding-right: 3%;
+}
+/* второй блок */
+
+.second_blok {
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 0 3px;
+  height: 560px;
+}
+
+.FilForFamil_Help {
+  letter-spacing: -0.04em;
+  display: flex;
+  text-align: left;
+  width: 89.5%;
+  position: absolute;
+  font-size: 24.5px;
+}
+.HelpForPict1 {
+  height: 683px;
+  width: 90%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  top: 250px;
+}
+
+#FilForFamil {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+
+  display: flex;
+  position: relative;
+  justify-content: left;
+}
+
+.HelpForPict {
+  padding-top: 40px;
+  height: 182px;
+  align-items: center; /* Центрирование по вертикали */
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+
+#NameOfFilmePadincton {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+
+  font-family: IBM Plex Mono;
+  letter-spacing: 0.02em;
+  line-height: 18.2px;
+  letter-spacing: 0.05em;
+  color: rgba(177, 175, 175, 1);
+}
+
+#ClassOfPadincton {
+  font-size: 18px;
+  color: #ffffff;
+  font-family: IBM Plex Mono;
+  line-height: 22.1px;
+  letter-spacing: -0.01em;
+}
+.ScorePadincton {
+  width: 30px;
+  height: 15px;
+  color: rgba(255, 215, 4, 1);
+  background-color: rgba(255, 215, 4, 1);
+  border-radius: 9px;
+  padding: 1.6%;
+  position: absolute;
+  margin: 8px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+#ScorePadinctonText {
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  letter-spacing: -0.04em;
+  font-family: IBM Plex Mono;
+  font-size: 17px;
+}
+#arrow {
+  position: relative;
+  margin-bottom: 110px;
+}
+/* последний блок */
+
+.last_blok {
+  height: 760px;
+  background: linear-gradient(to bottom, black, rgba(97, 132, 109, 1));
+  box-shadow: 7px -3px 6.8px 0px rgba(0, 0, 0, 0.25);
+}
+
+#FilForFamil1 {
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+
+  display: flex;
+  position: absolute;
+  justify-content: left;
+}
+.FilForFamil_Help1 {
+  letter-spacing: -0.04em;
+  display: flex;
+  text-align: left;
+  width: 89.5%;
+  position: absolute;
+  font-size: 29.5px;
+  height: 80px;
+}
+.HelpForPict11 {
+  height: 1100px;
+  width: 90%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#arrow1 {
+  position: relative;
+  margin-bottom: 280px;
+}
+
+#NameOfFilmePadincton:hover {
+  transform: scale(1.15); /* Увеличиваем картинку на 20% */
+}
+
+#NameOfFilmePadinctonMSP {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+
+  font-family: IBM Plex Mono;
+  letter-spacing: 0.02em;
+  line-height: 18.2px;
+  letter-spacing: 0.05em;
+  color: rgba(177, 175, 175, 1);
+}
+/* Скрыть карточку на экранах меньше px */
+@media (max-width: 950px) {
+  #NameOfFilmePadinctonMSP {
+    opacity: 0; /* Скрыть карточку с плавным переходом */
+    visibility: hidden; /* Прекратить взаимодействие с элементом */
+  }
+}
+
+/* Восстановить видимость карточки на экранах больше px */
+@media (min-width: 950px) {
+  #NameOfFilmePadinctonMSP {
+    opacity: 1; /* Карточка видима */
+    visibility: visible; /* Восстановить взаимодействие */
+  }
+}
+
+@media (min-width: 950px) {
+  #NameOfFilmePadinctonINHA {
+    transform: scale(1);
+  }
+}
+@media (max-width: 800px) {
+  #NameOfFilmePadinctonINHA {
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 950px) {
+  #NameOfFilmePadinctonONPA {
+    transform: scale(1);
+  }
+}
+@media (max-width: 800px) {
+  #NameOfFilmePadinctonONPA {
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 950px) {
+  .FilForFamil_Help {
+    transform: scale(1);
+  }
+}
+@media (max-width: 800px) {
+  .FilForFamil_Help {
+    transform: scale(0.9);
+  }
+}
+
+/* logo */
+@media (min-width: 950px) {
+  #arrow1 {
+    transform: scale(1);
+  }
+}
+@media (max-width: 800px) {
+  #arrow1 {
+    transform: scale(0.8);
+    bottom: 210px;
+    right: 382px;
+  }
+}
+
+@media (min-width: 950px) {
+  #arrow {
+    transform: scale(1);
+  }
+}
+@media (max-width: 800px) {
+  #arrow {
+    transform: scale(0.8);
+    bottom: 120px;
+    right: 382px;
+  }
+}
+
+@media (min-width: 950px) {
+  .FilForFamil_Help1 {
+    transform: scale(1);
+  }
+}
+@media (max-width: 800px) {
+  .FilForFamil_Help1 {
+    transform: scale(0.9);
+  }
+}
+
+#NameOfFilmePadinctonINHA {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+
+  font-family: IBM Plex Mono;
+  letter-spacing: 0.02em;
+  line-height: 18.2px;
+  letter-spacing: 0.05em;
+  color: rgba(177, 175, 175, 1);
+}
+#NameOfFilmePadinctonONPA {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+
+  font-family: IBM Plex Mono;
+  letter-spacing: 0.02em;
+  line-height: 18.2px;
+  letter-spacing: 0.05em;
+  color: rgba(177, 175, 175, 1);
+}
+/* Скрыть карточку на экранах меньше 600px */
+
+@media (max-width: 640px) {
+  #NameOfFilmePadinctonINHA {
+    opacity: 0; /* Скрыть карточку с плавным переходом */
+    visibility: hidden; /* Прекратить взаимодействие с элементом */
+  }
+}
+@media (min-width: 640px) {
+  #NameOfFilmePadinctonINHA {
+    opacity: 1; /* Карточка видима */
+    visibility: visible; /* Восстановить взаимодействие */
+  }
+}
+
+@media (max-width: 640px) {
+  .text-block {
+    opacity: 0; /* Скрыть карточку с плавным переходом */
+    visibility: hidden; /* Прекратить взаимодействие с элементом */
+  }
+}
+
+/* Восстановить видимость карточки на экранах больше px */
+@media (min-width: 640px) {
+  .text-block {
+    opacity: 1; /* Карточка видима */
+    visibility: visible; /* Восстановить взаимодействие */
+  }
+}
+
+.logoSmol {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  position: relative;
+  left: 70%;
+  justify-content: space-evenly;
+}
+#i {
+  padding: 30px;
+}
+
+@media (min-width: 640px) {
+  .logoSmol {
+    position: absolute;
+    opacity: 0; /* Скрыть карточку с плавным переходом */
+    visibility: hidden; /* Прекратить взаимодействие с элементом */
+  }
+}
+
+@media (max-width: 640px) {
+  .logoSmol {
+    position: absolute;
+    opacity: 1; /* Скрыть карточку с плавным переходом */
+    visibility: visible; /* Прекратить взаимодействие с элементом */
+  }
+}
+
+@media (max-width: 640px) {
+  #logo2 {
+    width: 150px;
+  }
+}
+
+@media (max-width: 640px) {
+  #arrow1 {
+    width: 150px;
+    bottom: 220px;
+    right: 700px;
+  }
+}
+
+@media (max-width: 640px) {
+  #arrow {
+    width: 150px;
+    bottom: 120px;
+    right: 700px;
+  }
+}
